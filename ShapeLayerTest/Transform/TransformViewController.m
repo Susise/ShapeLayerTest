@@ -22,7 +22,7 @@
     [self transformtest2];
 }
 
-- (void)transformtest2{
+- (void)transformtest2 {
     UILabel *lab = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 10)];
     lab.text = @"阿斯顿看电视看书的肌肤";
     [self.view addSubview:lab];
